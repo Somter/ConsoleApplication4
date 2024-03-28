@@ -201,7 +201,7 @@ class Client
 public:
 	Client(Continent* factory)
 	{
-		herbivore = factory->CreateHerbivore();
+		herbivore = factory->CreateHerbivore();	
 		carnivore = factory->CreateCarnivore();	
 	}
 	void EatHerbivore() 
